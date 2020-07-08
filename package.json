@@ -4,12 +4,15 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "rimraf dist && ng build --outputPath=dist/public && npm run copy:serverapp",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "symfony-serve": "symfony serve --dir=ServerApp --allow-http",
-    "serve": "concurrently \"npm run start\" \"npm run symfony-serve\" \"node start.js\""
+    "serve": "concurrently \"npm run start\" \"npm run symfony-serve\" \"node start.js\"",
+    "copy:serverapp": "npm run dependencies:serverapp && cp -r ServerApp/ dist && rm dist/public/index.php",
+    "dependencies:serverapp": "rimraf ServerApp/vendor && cd ServerApp && composer install",
+    "rimraf": "rimraf"
   },
   "private": true,
   "engines": {
@@ -47,6 +50,7 @@
     "karma-jasmine": "~3.3.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "protractor": "~7.0.0",
+    "rimraf": "^3.0.2",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.9.5"
