@@ -3,11 +3,11 @@
 ## Requirements
 This template assumes that you have installed the following tools and available in your $PATH:
 
-- node
-- npm
-- php
-- symfony
-- composer
+- [node](https://nodejs.org/en/download/)
+- [npm](https://www.npmjs.com/)
+- [php](https://www.php.net/)
+- [symfony](https://symfony.com/download/)
+- [composer](https://getcomposer.org/download/)
 
 ## Dependencies
 
