@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "symfony-serve": "symfony serve --dir=ServerApp --allow-http",
+    "serve": "concurrently \"npm run start\" \"npm run symfony-serve\" \"node start.js\""
   },
   "private": true,
   "dependencies": {
@@ -27,10 +29,13 @@
     "@angular-devkit/build-angular": "~0.1000.1",
     "@angular/cli": "~10.0.1",
     "@angular/compiler-cli": "~10.0.2",
-    "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0-next.1",
+    "concurrently": "^5.2.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.4",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~5.0.0",

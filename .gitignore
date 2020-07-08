@@ -44,3 +44,13 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+###> symfony/framework-bundle ###
+/ServerApp/.env.local
+/ServerApp/.env.local.php
+/ServerApp/.env.*.local
+/ServerApp/config/secrets/prod/prod.decrypt.private.php
+/ServerApp/public/bundles/
+/ServerApp/var/
+/ServerApp/vendor/
+###< symfony/framework-bundle ###
