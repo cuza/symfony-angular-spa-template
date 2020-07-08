@@ -25,4 +25,4 @@ composer install
 ```
 
 ## Development server
-To run the project run ` npm run serve`
+To run the project run ` npm run serve` and go to http://localhost:3000. Symfony API will be available at http://localhost:3000/api/

@@ -28,6 +28,6 @@ const angularProxy = createProxyMiddleware(angularOptions);
 
 // mount `Proxies` in web server
 const app = express();
-app.use('/', angularProxy);
 app.use('/api', symfonyProxy);
+app.use('/', angularProxy);
 app.listen(listen_port);
