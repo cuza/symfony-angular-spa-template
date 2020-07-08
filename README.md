@@ -1,7 +1,7 @@
 # Symfony Angular SPA Template
 
 ## Requirements
-This template assumes that you have installed the following tools and available in your $PATH:
+This template assumes that you have installed the following tools and they are available in your $PATH:
 
 - [node](https://nodejs.org/en/download/)
 - [npm](https://www.npmjs.com/)
