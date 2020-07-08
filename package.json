@@ -12,6 +12,9 @@
     "serve": "concurrently \"npm run start\" \"npm run symfony-serve\" \"node start.js\""
   },
   "private": true,
+  "engines": {
+    "node": ">=10 !=13"
+  },
   "dependencies": {
     "@angular/animations": "~10.0.2",
     "@angular/common": "~10.0.2",
