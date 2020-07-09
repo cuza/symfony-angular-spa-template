@@ -8,7 +8,7 @@ RUN apt update && apt install -y git zip libzip-dev && \
     mv composer.phar /usr/local/bin/composer
 WORKDIR /src
 COPY . .
-RUN cd ServerApp && composer install && rm public/index.php
+RUN cd ServerApp && composer install
 
 FROM node:12-stretch as node
 WORKDIR /src
