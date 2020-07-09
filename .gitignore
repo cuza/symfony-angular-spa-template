@@ -49,7 +49,7 @@ Thumbs.db
 /ServerApp/.env.local.php
 /ServerApp/.env.*.local
 /ServerApp/config/secrets/prod/prod.decrypt.private.php
-/ServerApp/public/bundles/
+/ServerApp/public/api/bundles/
 /ServerApp/var/
 /ServerApp/vendor/
 ###< symfony/framework-bundle ###
