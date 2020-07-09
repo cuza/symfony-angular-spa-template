@@ -3,8 +3,8 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/ServerApp/src" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/ServerApp/tests" isTestSource="true" packagePrefix="App\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/ServerApp/src" isTestSource="false" packagePrefix="App\" />
       <excludeFolder url="file://$MODULE_DIR$/ServerApp/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/ServerApp/vendor/doctrine/annotations" />
       <excludeFolder url="file://$MODULE_DIR$/ServerApp/vendor/doctrine/lexer" />
