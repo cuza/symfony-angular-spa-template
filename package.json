@@ -30,7 +30,7 @@
     "@nguniversal/module-map-ngfactory-loader": "^8.2.6",
     "bootstrap": "^4.3.1",
     "core-js": "^3.3.3",
-    "jquery": "~3.5.1",
+    "jquery": "~3.5.0",
     "oidc-client": "^1.9.1",
     "popper.js": "^1.16.0",
     "rxjs": "~6.5.5",
