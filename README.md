@@ -32,3 +32,8 @@ The ` npm run build` script will generate a ready to deploy code with both clien
 
 ## Docker
 There's a production ready-ish [Dockerfile](Dockerfile) using multistage builds for smaller image size.
+
+## Other SPA templates
+You can check this other Symfony SPA templates
+
+- [React with Redux](../../../symfony-react-redux-spa-template)
