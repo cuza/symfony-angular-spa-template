@@ -4,22 +4,22 @@ This template is heavily inspired in [Microsoft SPA templates for ASP.NET Core](
 ## Requirements
 This template assumes that you have installed the following tools and they are available in your $PATH:
 
-- [node](https://nodejs.org/en/download/)
+- [node](https://nodejs.org/en/download/) >=10 !=13
 - [npm](https://www.npmjs.com/)
-- [php](https://www.php.net/)
+- [php](https://www.php.net/) >=7.2.5
 - [symfony](https://symfony.com/download/)
 - [composer](https://getcomposer.org/download/)
 
 ## Dependencies
 
 ### Client Side
-Run to install all client side dependencies run:
+To install all client side dependencies run:
 ```shell script
 npm install
 ```
 
 ### Server Side
-Run to install all server side dependencies run:
+To install all server side dependencies run:
 ```shell script
 npm run dependencies:serverapp
 ```
