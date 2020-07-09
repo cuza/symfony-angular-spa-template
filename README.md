@@ -28,7 +28,7 @@ npm run dependencies:serverapp
 To run the project run ` npm run serve` and go to http://localhost:3000. Symfony API will be available at http://localhost:3000/api
 
 ## Build
-The ` npm run build` script will generate a ready to deploy code with both client side and server side apps. Upload the generated /dist directory to your apache webserver and make sure that your server root directory is /public.
+The ` npm run build` script will generate a ready to deploy code with both client side and server side apps. Upload the generated `/dist` directory to your apache webserver and make sure that your server root directory is `/public`.
 
 ## Docker
 There's a production ready-ish [Dockerfile](Dockerfile) using multistage builds for smaller image size.
