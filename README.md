@@ -28,4 +28,4 @@ npm run dependencies:serverapp
 To run the project run ` npm run serve` and go to http://localhost:3000. Symfony API will be available at http://localhost:3000/api
 
 ## Docker
-There's a production-ish ready [Dockerfile](Dockerfile) using multistage builds for smaller image size.
+There's a production ready-ish [Dockerfile](Dockerfile) using multistage builds for smaller image size.
