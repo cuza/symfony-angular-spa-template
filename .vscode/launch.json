@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "compounds": [
+    {
+      "name": "Dev Server",
+      "configurations": [
+        "Reverse Proxy",
+        "Symfony",
+        "Angular"
+      ]
+    }
+  ],
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Reverse Proxy",
+      "noDebug": true,
+      "program": "${workspaceFolder}/start.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Symfony",
+      "noDebug": true,
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run-script",
+        "symfony:serve"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Angular",
+      "noDebug": true,
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run-script",
+        "start"
+      ]
+    }
+  ]
+}
