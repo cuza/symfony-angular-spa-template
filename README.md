@@ -1,4 +1,5 @@
 # Symfony Angular SPA Template
+This template is heavily inspired in [Microsoft SPA templates for ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/angular)
 
 ## Requirements
 This template assumes that you have installed the following tools and they are available in your $PATH:
