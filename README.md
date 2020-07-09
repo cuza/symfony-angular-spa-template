@@ -20,9 +20,11 @@ npm install
 ### Server Side
 Run to install all server side dependencies run:
 ```shell script
-cd ServerApp
-composer install
+npm run dependencies:serverapp
 ```
 
 ## Development server
-To run the project run ` npm run serve` and go to http://localhost:3000. Symfony API will be available at http://localhost:3000/api/
+To run the project run ` npm run serve` and go to http://localhost:3000. Symfony API will be available at http://localhost:3000/api
+
+## Docker
+There's a production-ish ready [Dockerfile](Dockerfile) using multistage builds for smaller image size.
