@@ -15,9 +15,9 @@ WORKDIR /src
 COPY . .
 RUN npm ci
 RUN npm run build:angular
-COPY --from=php /src/ServerApp/ /src/dist
 
 FROM php:7.4-apache as server
 RUN a2enmod rewrite
 COPY --from=node /src/dist/ /var/www/
+COPY --from=php /src/ServerApp/ /var/www/
 RUN rm -rf /var/www/html && mv /var/www/public /var/www/html
